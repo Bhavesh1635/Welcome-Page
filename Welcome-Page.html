@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Testing Webpage</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+      background-size: cover;
+      border: 6px solid rgba(255, 200, 120, 0.8);
+      box-shadow: 0 0 20px rgba(255, 200, 120, 0.8);
+      animation: borderGlow 10s ease-in-out infinite;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+    }
+
+    @keyframes borderGlow {
+      0%, 100% {
+        border-color: rgba(255, 200, 120, 0.8);
+        box-shadow: 0 0 20px rgba(255, 200, 120, 0.8);
+      }
+      50% {
+        border-color: rgba(255, 230, 150, 0.9);
+        box-shadow: 0 0 30px rgba(255, 230, 150, 0.9);
+      }
+    }
+
+    h1, p {
+      background-color: rgba(0, 0, 0, 0.4); /* semi-transparent background for readability */
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome Bhavesh!</h1>
+  <p>Hope you had a great day so far before coming on this account. I hope you like your account and enjoy what you do on this account too!</p>
+</body>
+</html>
